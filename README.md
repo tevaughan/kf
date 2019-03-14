@@ -1,2 +1,1 @@
-# kf
-A Kalman-filtering framework in C++.
+# A Kalman-filtering framework in C++.
