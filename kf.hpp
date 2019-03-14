@@ -70,7 +70,7 @@ public:
   }
 
   /// Take a step whose end-state corresponds to a measurement.
-  /// @param m  Elements of measurement.
+  /// @param z  Elements of measurement.
   void step(kf_mat<M, 1> const &z) {
     step();
     kf_mat<M, N> const HT = H_.transposed();
